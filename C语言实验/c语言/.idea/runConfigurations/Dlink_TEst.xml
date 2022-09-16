@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Dlink_TEst" type="CMakeRunConfiguration" factoryName="Application" singleton="false" PROGRAM_PARAMS="$CMakeCurrentBuildDir$" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/CPP/数据结构教程（第5版）－源程序/第2章" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/CPP/数据结构教程（第5版）－源程序/第2章/Dlink_Test.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

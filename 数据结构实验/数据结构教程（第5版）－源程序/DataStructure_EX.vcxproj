@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{FBEFD3F8-CEFE-4595-ABDE-A215C215E6A3}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="第10章\bininsertsort.cpp" />
+    <ClCompile Include="第10章\bubblesort.cpp" />
+    <ClCompile Include="第10章\bubblesort1.cpp" />
+    <ClCompile Include="第10章\heapsort.cpp" />
+    <ClCompile Include="第10章\insertsort.cpp" />
+    <ClCompile Include="第10章\mergesort.cpp" />
+    <ClCompile Include="第10章\mergesort1.cpp" />
+    <ClCompile Include="第10章\quicksort.cpp" />
+    <ClCompile Include="第10章\radixsort.cpp" />
+    <ClCompile Include="第10章\radixsort1.cpp" />
+    <ClCompile Include="第10章\selectsort.cpp" />
+    <ClCompile Include="第10章\seqlist.cpp" />
+    <ClCompile Include="第10章\shellsort.cpp" />
+    <ClCompile Include="第13章\listack.cpp" />
+    <ClCompile Include="第13章\program13-1.cpp" />
+    <ClCompile Include="第13章\program13-2.cpp" />
+    <ClCompile Include="第13章\program13-3.cpp" />
+    <ClCompile Include="第13章\program13-4.cpp" />
+    <ClCompile Include="第13章\program13-5.cpp" />
+    <ClCompile Include="第13章\program13-6.cpp" />
+    <ClCompile Include="第13章\program13-7.cpp" />
+    <ClCompile Include="第13章\program13-8.cpp" />
+    <ClCompile Include="第13章\program13-9.cpp" />
+    <ClCompile Include="第13章\sqlist.cpp" />
+    <ClCompile Include="第1章\algorithm1-5.cpp" />
+    <ClCompile Include="第1章\algorithm1-9.cpp" />
+    <ClCompile Include="第2章\algorithm2-10.cpp" />
+    <ClCompile Include="第2章\algorithm2-11.cpp" />
+    <ClCompile Include="第2章\algorithm2-12.cpp" />
+    <ClCompile Include="第2章\algorithm2-13.cpp" />
+    <ClCompile Include="第2章\algorithm2-14-1.cpp" />
+    <ClCompile Include="第2章\algorithm2-14-2.cpp" />
+    <ClCompile Include="第2章\algorithm2-15.cpp" />
+    <ClCompile Include="第2章\algorithm2-16.cpp" />
+    <ClCompile Include="第2章\algorithm2-17.cpp" />
+    <ClCompile Include="第2章\algorithm2-3.cpp" />
+    <ClCompile Include="第2章\algorithm2-4.cpp" />
+    <ClCompile Include="第2章\algorithm2-5.cpp" />
+    <ClCompile Include="第2章\algorithm2-6.cpp" />
+    <ClCompile Include="第2章\algorithm2-7.cpp" />
+    <ClCompile Include="第2章\algorithm2-8.cpp" />
+    <ClCompile Include="第2章\algorithm2-9.cpp" />
+    <ClCompile Include="第2章\cdlinklist.cpp" />
+    <ClCompile Include="第2章\clinklist.cpp" />
+    <ClCompile Include="第2章\Clink_Test.cpp" />
+    <ClCompile Include="第2章\dlinklist.cpp" />
+    <ClCompile Include="第2章\Dlink_Test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="第2章\linklist.cpp" />
+    <ClCompile Include="第2章\Linklist_Test.cpp" />
+    <ClCompile Include="第2章\sqlist.cpp" />
+    <ClCompile Include="第2章\tablelink.cpp" />
+    <ClCompile Include="第2章\tempCodeRunnerFile.cpp" />
+    <ClCompile Include="第3章\algorithm3-10.cpp" />
+    <ClCompile Include="第3章\algorithm3-4.cpp" />
+    <ClCompile Include="第3章\algorithm3-5.cpp" />
+    <ClCompile Include="第3章\algorithm3-7.cpp" />
+    <ClCompile Include="第3章\algorithm3-8.cpp" />
+    <ClCompile Include="第3章\expvalue.cpp" />
+    <ClCompile Include="第3章\liqueue.cpp" />
+    <ClCompile Include="第3章\listack.cpp" />
+    <ClCompile Include="第3章\mgpath.cpp" />
+    <ClCompile Include="第3章\mgpath1.cpp" />
+    <ClCompile Include="第3章\number.cpp" />
+    <ClCompile Include="第3章\sqqueue.cpp" />
+    <ClCompile Include="第3章\sqqueue1.cpp" />
+    <ClCompile Include="第3章\sqstack.cpp" />
+    <ClCompile Include="第4章\algorithm4-1.cpp" />
+    <ClCompile Include="第4章\algorithm4-2.cpp" />
+    <ClCompile Include="第4章\algorithm4-3.cpp" />
+    <ClCompile Include="第4章\bf.cpp" />
+    <ClCompile Include="第4章\kmp.cpp" />
+    <ClCompile Include="第4章\kmp1.cpp" />
+    <ClCompile Include="第4章\listring.cpp" />
+    <ClCompile Include="第4章\sqstring.cpp" />
+    <ClCompile Include="第5章\algorithm5-1.cpp" />
+    <ClCompile Include="第5章\algorithm5-2.cpp" />
+    <ClCompile Include="第5章\algorithm5-3.cpp" />
+    <ClCompile Include="第5章\algorithm5-4.cpp" />
+    <ClCompile Include="第5章\algorithm5-5.cpp" />
+    <ClCompile Include="第5章\hanoi.cpp" />
+    <ClCompile Include="第5章\linklist.cpp" />
+    <ClCompile Include="第6章\algorithm6-1.cpp" />
+    <ClCompile Include="第6章\algorithm6-3.cpp" />
+    <ClCompile Include="第6章\glist.cpp" />
+    <ClCompile Include="第6章\orthogonal.cpp" />
+    <ClCompile Include="第6章\tuples.cpp" />
+    <ClCompile Include="第7章\algorithm7-11.cpp" />
+    <ClCompile Include="第7章\algorithm7-12.cpp" />
+    <ClCompile Include="第7章\algorithm7-13 .cpp" />
+    <ClCompile Include="第7章\algorithm7-14.cpp" />
+    <ClCompile Include="第7章\algorithm7-15.cpp" />
+    <ClCompile Include="第7章\algorithm7-16.cpp" />
+    <ClCompile Include="第7章\algorithm7-17.cpp" />
+    <ClCompile Include="第7章\algorithm7-18.cpp" />
+    <ClCompile Include="第7章\algorithm7-19.cpp" />
+    <ClCompile Include="第7章\algorithm7-3.cpp" />
+    <ClCompile Include="第7章\algorithm7-4.cpp" />
+    <ClCompile Include="第7章\btree.cpp" />
+    <ClCompile Include="第7章\createbt.cpp" />
+    <ClCompile Include="第7章\huffman.cpp" />
+    <ClCompile Include="第7章\levelorder.cpp" />
+    <ClCompile Include="第7章\nonrecuorder.cpp" />
+    <ClCompile Include="第7章\recuorder.cpp" />
+    <ClCompile Include="第7章\thread.cpp" />
+    <ClCompile Include="第7章\unionfindset.cpp" />
+    <ClCompile Include="第8章\algorithm8-10.cpp" />
+    <ClCompile Include="第8章\algorithm8-2.cpp" />
+    <ClCompile Include="第8章\algorithm8-3.cpp" />
+    <ClCompile Include="第8章\algorithm8-4.cpp" />
+    <ClCompile Include="第8章\algorithm8-5.cpp" />
+    <ClCompile Include="第8章\algorithm8-6.cpp" />
+    <ClCompile Include="第8章\algorithm8-7.cpp" />
+    <ClCompile Include="第8章\algorithm8-8.cpp" />
+    <ClCompile Include="第8章\algorithm8-9.cpp" />
+    <ClCompile Include="第8章\bfs.cpp" />
+    <ClCompile Include="第8章\dfs.cpp" />
+    <ClCompile Include="第8章\dijkstra(debug).cpp" />
+    <ClCompile Include="第8章\dijkstra.cpp" />
+    <ClCompile Include="第8章\floyd.cpp" />
+    <ClCompile Include="第8章\graph.cpp" />
+    <ClCompile Include="第8章\Keypath.cpp" />
+    <ClCompile Include="第8章\kruskal.cpp" />
+    <ClCompile Include="第8章\kruskal1.cpp" />
+    <ClCompile Include="第8章\prim.cpp" />
+    <ClCompile Include="第8章\tmp.cpp" />
+    <ClCompile Include="第8章\topsort.cpp" />
+    <ClCompile Include="第9章\avl.cpp" />
+    <ClCompile Include="第9章\binsearch.cpp" />
+    <ClCompile Include="第9章\blocksearch.cpp" />
+    <ClCompile Include="第9章\bst.cpp" />
+    <ClCompile Include="第9章\btree.cpp" />
+    <ClCompile Include="第9章\exam9-4.cpp" />
+    <ClCompile Include="第9章\hash-chain.cpp" />
+    <ClCompile Include="第9章\hash-open.cpp" />
+    <ClCompile Include="第9章\seqlist.cpp" />
+    <ClCompile Include="第9章\seqsearch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="第6章\glnode.h" />
+    <ClInclude Include="第8章\graph.h" />
+    <ClInclude Include="第9章\seqlist.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,21 @@
+from importlib.resources import contents
+
+
+filename = 'programing.txt'
+
+# r：read只读模式；
+# w：write写入模式；
+# a：append附加模式；不会覆盖原有内容
+
+with open(filename,'w') as file_object:
+    file_object.write("I Love Programing.\n")
+    file_object.write("I love creating new games.\n")
+
+with open(filename,'a') as file_object:
+    file_object.write("I also love findings meaning in large datasets.\n")
+    file_object.write("I LOVE creating apps that can run in a browser.\n")
+
+with open(filename,'r') as file_object:
+    contents = file_object.read()
+
+print(contents.rstrip())

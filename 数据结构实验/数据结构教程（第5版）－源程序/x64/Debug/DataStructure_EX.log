@@ -1,0 +1,25 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1118,5): warning MSB8027: 名为 seqlist.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 第10章\seqlist.cpp, 第9章\seqlist.cpp。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1118,5): warning MSB8027: 名为 listack.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 第13章\listack.cpp, 第3章\listack.cpp。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1118,5): warning MSB8027: 名为 sqlist.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 第13章\sqlist.cpp, 第2章\sqlist.cpp。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1118,5): warning MSB8027: 名为 linklist.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 第2章\linklist.cpp, 第5章\linklist.cpp。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1118,5): warning MSB8027: 名为 btree.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 第7章\btree.cpp, 第9章\btree.cpp。
+  tempCodeRunnerFile.cpp
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第2章\tempCodeRunnerFile.cpp(1,9): error C2059: 语法错误:“if”
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第2章\tempCodeRunnerFile.cpp(1,27): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第2章\tempCodeRunnerFile.cpp(1,27): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第2章\tempCodeRunnerFile.cpp(2,1): fatal  error C1004: 发现意外的文件尾
+  hash-chain.cpp
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-chain.cpp(37,7): error C2065: “i”: 未声明的标识符
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-chain.cpp(37,11): error C2065: “i”: 未声明的标识符
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-chain.cpp(37,16): error C2065: “i”: 未声明的标识符
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-chain.cpp(38,24): error C2065: “i”: 未声明的标识符
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-chain.cpp(38,26): error C2660: “InsertHT”: 函数不接受 3 个参数
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-chain.cpp(15,6): message : 参见“InsertHT”的声明
+  hash-open.cpp
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-open.cpp(43,7): error C2065: “i”: 未声明的标识符
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-open.cpp(43,11): error C2065: “i”: 未声明的标识符
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-open.cpp(43,16): error C2065: “i”: 未声明的标识符
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-open.cpp(44,26): error C2065: “i”: 未声明的标识符
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-open.cpp(44,28): error C2660: “InsertHT”: 函数不接受 4 个参数
+C:\Users\36126\c语言\CPP\数据结构教程（第5版）－源程序\第9章\hash-open.cpp(12,6): message : 参见“InsertHT”的声明
+  正在生成代码...

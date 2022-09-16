@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+    char str[100];
+    int i = 0, emp = 0, let = 0, num = 0, oth = 0;
+    gets(str);
+    for(i = 0;i < strlen(str);++i){
+        if(str[i] == ' ')emp++;
+        else {
+            if(str[i]>=97&&str[i]<=122)let++;
+            if(str[i]>=48&&str[i]<=57)num++;
+            if(str[i]>=62&&str[i]<=90)let++;
+            if(str[i]>=33&&str[i]<=47)oth++;
+            if(str[i]>=58&&str[i]<=64)oth++;
+            if(str[i]>=91&&str[i]<=96)oth++;
+            if(str[i]>=123&&str[i]<=126)oth++;
+        }
+    }
+    printf("%d %d %d %d",let,num,emp,oth);
+    return 0;
+}

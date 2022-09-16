@@ -1,0 +1,56 @@
+﻿  ex3_1.cpp
+  Linklist.cpp
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(9,10): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(9,10): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(9,16): error C2238: 意外的标记位于“;”之前
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(13,12): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(18,12): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(19,10): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(27,5): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(36,13): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(37,11): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(39,6): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(43,11): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(45,8): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(45,18): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(46,6): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(52,12): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(53,10): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(64,13): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(65,11): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(67,11): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(68,6): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(72,11): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(74,22): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(75,6): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(75,18): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(84,10): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(87,7): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(89,8): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(90,8): error C2039: "next": 不是 "Linklist" 的成员
+C:\Users\36126\c语言\DataStructureEX\Linklist.cpp(7): message : 参见“Linklist”的声明
+  正在生成代码...

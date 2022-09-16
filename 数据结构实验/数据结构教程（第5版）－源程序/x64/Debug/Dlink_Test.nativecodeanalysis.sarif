@@ -1,0 +1,1081 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“L”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 2,
+                  "endLine": 16,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CreateListF",
+                  "decoratedName": "?CreateListF@@YAXAEAPEAUDNode@@QEAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "“L”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“L”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“s”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 3,
+                  "endLine": 20,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CreateListF",
+                  "decoratedName": "?CreateListF@@YAXAEAPEAUDNode@@QEAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "“s”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“s”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“L”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 2,
+                  "endLine": 31,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CreateListR",
+                  "decoratedName": "?CreateListR@@YAXAEAPEAUDNode@@QEAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "“L”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“L”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“s”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 3,
+                  "endLine": 36,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CreateListR",
+                  "decoratedName": "?CreateListR@@YAXAEAPEAUDNode@@QEAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "“s”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“s”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“r”的引用。查看第 36 行以找出可能会发生此情况的前一位置"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 2,
+                  "endLine": 40,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CreateListR",
+                  "decoratedName": "?CreateListR@@YAXAEAPEAUDNode@@QEAHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "“s”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "(别名)“r”收到“s”的值(可能为 NULL)"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "退出此循环(“i<n”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“r”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“L”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 2,
+                  "endLine": 45,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InitList",
+                  "decoratedName": "?InitList@@YAXAEAPEAUDNode@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "“L”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“L”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“s”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                },
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 3,
+                  "endLine": 130,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListInsert",
+                  "decoratedName": "?ListInsert@@YA_NAEAPEAUDNode@@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "“s”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“s”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/36126/c语言/CPP/数据结构教程（第5版）－源程序/第2章/dlinklist.cpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3d7cb9e52937ed325a174f929a45b186a0894bc45d76e5b925fa7abc5c82476c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/36126/c语言/cpp/数据结构教程（第5版）－源程序/第2章/dlink_test.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e8dfd191a5b5b3d6032f0436c041cca59bda3f1069be1ba79818239384c47fc8"
+          }
+        }
+      ]
+    }
+  ]
+}

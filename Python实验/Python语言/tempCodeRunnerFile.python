@@ -1,0 +1,11 @@
+import nltk
+ 
+nltk.download()
+ 
+ 
+nltk.download()
+ 
+text=nltk.word_tokenize("And now for something completely different")
+ 
+nltk.pos_tag(text)
+
