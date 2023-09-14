@@ -1,0 +1,16 @@
+// Dynamic.odl : type library source for Dynamic.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Dynamic.tlb).
+
+[ uuid(7BDAAF13-B312-41D1-967B-D447F1083573), version(1.0) ]
+library Dynamic
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};
