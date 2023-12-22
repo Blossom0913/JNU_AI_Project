@@ -1,0 +1,7 @@
+将该FileTool.dll文件拷贝到 C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\AddIns,然后再重新运行VC，选择菜单栏中的tool->customize->Add-ins and Macro Files，将FileTool Developer Studio Add-in打勾。再关闭对话框此时，VC中会出现2个新的图标，用来add或open文件，问题解决！
+
+如果提示没有注册：
+regsvr32  "C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\AddIns\FileTool.dll"
+
+如果提示：dllregisterserver调用失败,0x80070005
+在“命令提示符”上点击鼠标右键，选择“以管理员身份运行”命令，再进行输入

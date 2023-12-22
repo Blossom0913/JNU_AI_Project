@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cxt913 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\jszx\AppData\Local\Temp\RSP4EE0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/cxt913.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\jszx\Desktop\cxt913\bmp.cpp"
+]
+Creating command line "cl.exe @C:\Users\jszx\AppData\Local\Temp\RSP4EE0.tmp" 
+Creating temporary file "C:\Users\jszx\AppData\Local\Temp\RSP4EE1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/cxt913.pdb" /debug /machine:I386 /out:"Debug/cxt913.exe" /pdbtype:sept 
+.\Debug\bmp.obj
+.\Debug\cxt913.obj
+.\Debug\cxt913Doc.obj
+.\Debug\cxt913View.obj
+.\Debug\HistogramDlg.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\cxt913.res
+]
+Creating command line "link.exe @C:\Users\jszx\AppData\Local\Temp\RSP4EE1.tmp"
+<h3>Output Window</h3>
+Compiling...
+bmp.cpp
+C:\Users\jszx\Desktop\cxt913\bmp.cpp(766) : warning C4101: 'temp' : unreferenced local variable
+C:\Users\jszx\Desktop\cxt913\bmp.cpp(765) : warning C4101: 'k' : unreferenced local variable
+C:\Users\jszx\Desktop\cxt913\bmp.cpp(765) : warning C4101: 'l' : unreferenced local variable
+C:\Users\jszx\Desktop\cxt913\bmp.cpp(187) : warning C4700: local variable 'r' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+cxt913.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
