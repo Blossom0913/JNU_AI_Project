@@ -33,6 +33,3 @@
 
 [Android实验讲义](https://polarized-cheek-9b8.notion.site/2023-121fa8e37a014bdebd1705c10b7f9bc5?pvs=4)
 
-## 具体详细情况请咨询：
-vx：poex17369727073
-qq：361265483
